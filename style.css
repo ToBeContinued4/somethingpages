@@ -92,3 +92,20 @@ body {
     border-radius: 8px;
     background-color: blue;
 }
+
+#botonPag {
+    transition-duration: 0.5s;
+    padding: 7px 50px;
+    background-color: rgb(17, 0, 114);
+    margin-left: 30px;
+    border-color: transparent;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+}
+
+#botonPag:hover {
+    transition-duration: 0.5s;
+    border-radius: 8px;
+    background-color: blue;
+}
