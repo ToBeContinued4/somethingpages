@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(51, 51, 51);
+    background-color: black;
     font-family: 'Franklin Gothic Medium';
     margin: 0px;
 }
@@ -17,9 +17,15 @@ body {
 }
 
 #tituloPrincipal {
+    transition-duration: 0.5s;
     color: white;
     margin-left: 40px;
     font-size: 26px;
+}
+
+#tituloPrincipal:hover {
+    transition-duration: 0.5s;
+    color: rgb(0, 72, 145);
 }
 
 #enlacesPrincipal {
